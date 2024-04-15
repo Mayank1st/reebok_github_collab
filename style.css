@@ -1,0 +1,243 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.push {
+    margin-left: auto;
+}
+
+.main-nav li {
+    padding: 0 5px;
+    list-style-type: none;
+}
+
+.adv {
+    border: solid black 1px;
+    height: 37px;
+    background-color: #000000;
+}
+
+marquee {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: normal;
+    color: white;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #252525;
+    color: #fff;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.navbar-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: normal;
+}
+
+.navbar-menu li {
+    margin-left: 20px;
+}
+
+.navbar-menu li a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-menu li a i {
+    margin-right: 5px;
+}
+
+.dropdown {
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 100px;
+    padding: 10px;
+    z-index: 1;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 5px 0;
+}
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #f0f2f4;
+    margin-left: 5px;
+}
+
+/* Main-Menu */
+
+
+/* Style for the main-menu-navbar */
+.main-menu-navbar {
+    background-color: white;
+    overflow: hidden;
+
+}
+
+/* Style for the left side of the main-menu-navbar */
+.main-menu-navbar-left {
+    float: left;
+    padding: 5px 40px;
+}
+
+/* Style for the right side of the main-menu-navbar */
+.main-menu-navbar-right {
+    float: right;
+    padding: 5px 70px;
+}
+
+/* Style for the navbar links */
+.main-menu-navbar a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* Style for the search bar */
+.search-container {
+    float: right;
+}
+
+.search-container input[type=text] {
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 174px;
+    border: solid black 1px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.search-container button {
+    padding-left: 30px;
+    padding-right: 80px;
+    padding-top: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background: #c40c2f;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 800;
+    color: white;
+}
+
+/* Style for the logo */
+.logo {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 0 20px;
+    float: left;
+}
+
+.logo img {
+    height: 40px;
+    width: 160px;
+}
+
+/* Catogory */
+.catog-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid #dddddd 1px;
+    /* height: 343px; */
+    background-color: #ffffff;
+    padding-bottom: 50px;
+}
+
+.new {
+    color: #0c2340;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin: 60px;
+    margin-bottom: 0px;
+}
+
+.select-catog {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 36px;
+    margin-bottom: 0px;
+}
+
+.categ-options {
+    margin-top: 26px;
+    display: flex;
+}
+
+.categ-options>div {
+    background-color: #ffffff;
+    margin: 10px;
+    font-size: 16px;
+}
+
+.op {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid black 1px;
+    height: 33px;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
