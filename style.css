@@ -285,3 +285,65 @@ marquee {
 .circle-div-inner-avani {
     height: 7px;
 }
+/* Ritik css code */
+body {
+    padding: 0px;
+    margin: 0px;
+  }
+  .footerDesign {
+    background-color: #0c2340;
+  }
+  .footerDetails {
+    display: flex;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+  }
+  .socialIcons a {
+    text-decoration: none;
+    padding: 1px;
+    background: none;
+    margin: 10px;
+  }
+  .socialIcons a i {
+    color: white;
+  }
+  .bottom {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .connection {
+    display: flex;
+    justify-content: right;
+  }
+  .imageTags {
+    padding: auto;
+    width: 500px;
+  }
+  .id1 li {
+    list-style-type: none;
+    position: relative;
+  }
+  .id1 {
+    width: 370px;
+    height: 200px;
+    outline: none;
+    border-radius: 8px;
+    display: inline-block;
+    color: white;
+  }
+  .tags {
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+  }
+  .AdditionalInfo {
+    position: relative;
+    bottom: 30px;
+  }
+  .id1 a {
+    color: white;
+    text-decoration: none;
+  }
