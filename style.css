@@ -241,3 +241,47 @@ marquee {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
 }
+
+ /* avani styles for shoes section */
+ .shoes {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.shoe {
+    font-family: 'Roboto', sans-serif;
+    text-align: match-parent;
+}
+.shoename{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.des{
+    font-size: 15px;
+}
+
+.shoe img {
+    max-width: 280px;
+    height: auto;
+}
+.shoe-color-avani{
+    font-size: 13px;
+    color: grey;
+}
+
+.circle-div-outer-avani {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: solid black 1px;
+}
+.circle-div-inner-avani {
+    height: 7px;
+}
